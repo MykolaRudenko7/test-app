@@ -34,6 +34,7 @@ export default tseslint.config(
       'prettier/prettier': 'error',
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
+      'no-warning-comments': 'warn',
       'import/order': [
         'error',
         {
@@ -42,6 +43,7 @@ export default tseslint.config(
       ],
       'unicorn/prevent-abbreviations': 'off',
       'jsx-a11y/alt-text': 'error',
+      'no-console': ['error', { allow: ['warn', 'error'] }],
     },
   },
 )
